@@ -51,3 +51,7 @@
 [user]
 	email = katywebster50@yahoo.co.uk
 	name = Katy Webster
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
